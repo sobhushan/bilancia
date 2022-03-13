@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Body ki stylying */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1aa4bc;
+  color: white;
+}
+
+/* heading ki font */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Stylying of navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(1, 51, 66);
+}
+
+/* Stylying of navigation bar elements */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right wala link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(190, 211, 219);
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome To</h1>
+  <h3>www.bilancia.com</h3>
+</div>
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="calendar.html">My Calendar</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="login.html" class="right">Login</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <div class="fakeimg" style="height:200px;">It is irrefutable that maintaining and staying within the bounds of monetary budget is, while seeming docile, an indubiously intricate task. In an attempt to combat this issue, which is basically a perennial looming warning sign, we plan to make a website which allows the user to make an account and keep a track of their daily expenses and ensure that they stay under their set monthly budget.</div>
+    <h3>Quick Links</h3>
+    <div class="fakeimg" style="height:60px;">Updates</div><br>
+    <div class="fakeimg" style="height:60px;">Piggy Bank</div><br>
+    <div class="fakeimg" style="height:60px;">Your Calendar</div><br>
+  </div>
+  <div class="main">
+    <h2>BILANCIA</h2>
+    <div class="fakeimg" style="height:200px;">In an attempt to combat this issue, which is basically a perennial looming warning sign, we plan to make a website which allows the user to make an account and keep a track of their daily expenses and ensure that they stay under their set monthly budget. 
+      Often times, we lose account of how much we’re spending; having something to instantly note it will make sure you keep an honest track of your expenditures. Apart from that, you can also note who you owe and how much is owed to you.
+      </div>
+    <br>
+    <h2>THAPAR SPECIAL</h2>
+    <div class="fakeimg" style="height:200px;"> </div>
+    <img src="">
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Contact Us</h2>
+</div>
+
+</body>
+</html>

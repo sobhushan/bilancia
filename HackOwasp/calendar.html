@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calendar</title>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #2ecccc;
+  color: white !important
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>My Bilancia Calendar</h1>
+
+<div class="month">      
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      March<br>
+      <span style="font-size:18px">2021</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  
+  <li> </li>
+  <li><button> 1</button></li>
+  <li><button> 2</button></li>
+  <li><button> 3</button></li>
+  <li><button> 4</button></li>
+  <li><button> 5</button></li>
+  <li><button> 6</button></li>
+  <li><button> 7</button></li>
+  <li><button> 8</button></li>
+  <li><button> 9</button></li>
+  <li><button>10</button></li>
+  <li><button>11</button></li>
+  <li><button>12</button></li>
+  <li><span class="active"><button>13</button></span></li>
+  <li><button>14</button></li>
+  <li><button>15</button></li>
+  <li><button>16</button></li>
+  <li><button>17</button></li>
+  <li><button>18</button></li>
+  <li><button>19</button></li>
+  <li><button>20</button></li>
+  <li><button>21</button></li>
+  <li><button>22</button></li>
+  <li><button>23</button></li>
+  <li><button>24</button></li>
+  <li><button>25</button></li>
+  <li><button>26</button></li>
+  <li><button>27</button></li>
+  <li><button>28</button></li>
+  <li><button>29</button></li>
+  <li><button>30</button></li>
+  <li><button>31</button></li>
+     
+</ul>
+
+</body>
+</html>
